@@ -29,6 +29,7 @@ class ViewController: UIViewController, CBPeripheralDelegate{
     @IBOutlet weak var angleFive: UILabel!
     @IBOutlet weak var angleSix: UILabel!
     @IBOutlet weak var bleTable: UITableView!
+    @IBOutlet weak var stackView: UIStackView!
     
     @IBAction func sliderOnee(_ sender: UISlider) {
         sender.isContinuous = false
@@ -89,6 +90,8 @@ class ViewController: UIViewController, CBPeripheralDelegate{
         // Bluetooth instance
         centralManager = CBCentralManager(delegate: self, queue: nil)
         bleTable.isHidden = true
+        stackView.isHidden = true
+        
     }
 }
 
@@ -127,6 +130,7 @@ extension ViewController: CBCentralManagerDelegate{
     
     //Ble Connected
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+        stackView.isHidden = false
         print("Connected")
         connectionLabel.text! = "Connected to: " + peripheral.name!
         centralManager.stopScan()
