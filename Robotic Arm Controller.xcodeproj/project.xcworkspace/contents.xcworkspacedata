@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/sowmix59/Documents/6DOF-robot-arm/Robotic Arm Controller.xcodeproj">
    </FileRef>
 </Workspace>

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		A354C31327161350003BAE7A /* BlelistControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlelistControllerTableViewController.swift; sourceTree = "<group>"; };
-		A39E401E2704E807001C75A3 /* roboarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roboarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39E401E2704E807001C75A3 /* Robotic Arm Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robotic Arm Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39E40212704E807001C75A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39E40232704E807001C75A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A39E40252704E807001C75A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		A39E402A2704E809001C75A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = roboarm/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		A39E402D2704E809001C75A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39E402F2704E809001C75A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A39E40342704E80A001C75A3 /* roboarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roboarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39E40342704E80A001C75A3 /* Robotic Arm ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robotic Arm ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39E40382704E80A001C75A3 /* roboarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roboarmTests.swift; sourceTree = "<group>"; };
-		A39E403E2704E80A001C75A3 /* roboarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roboarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39E403E2704E80A001C75A3 /* Robotic Arm ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robotic Arm ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39E40422704E80A001C75A3 /* roboarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roboarmUITests.swift; sourceTree = "<group>"; };
 		A39E40442704E80A001C75A3 /* roboarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roboarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		A39E401F2704E807001C75A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A39E401E2704E807001C75A3 /* roboarm.app */,
-				A39E40342704E80A001C75A3 /* roboarmTests.xctest */,
-				A39E403E2704E80A001C75A3 /* roboarmUITests.xctest */,
+				A39E401E2704E807001C75A3 /* Robotic Arm Controller.app */,
+				A39E40342704E80A001C75A3 /* Robotic Arm ControllerTests.xctest */,
+				A39E403E2704E80A001C75A3 /* Robotic Arm ControllerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A39E401D2704E807001C75A3 /* roboarm */ = {
+		A39E401D2704E807001C75A3 /* Robotic Arm Controller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A39E40482704E80A001C75A3 /* Build configuration list for PBXNativeTarget "roboarm" */;
+			buildConfigurationList = A39E40482704E80A001C75A3 /* Build configuration list for PBXNativeTarget "Robotic Arm Controller" */;
 			buildPhases = (
 				A39E401A2704E807001C75A3 /* Sources */,
 				A39E401B2704E807001C75A3 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = roboarm;
+			name = "Robotic Arm Controller";
 			productName = roboarm;
-			productReference = A39E401E2704E807001C75A3 /* roboarm.app */;
+			productReference = A39E401E2704E807001C75A3 /* Robotic Arm Controller.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A39E40332704E80A001C75A3 /* roboarmTests */ = {
+		A39E40332704E80A001C75A3 /* Robotic Arm ControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A39E404B2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "roboarmTests" */;
+			buildConfigurationList = A39E404B2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "Robotic Arm ControllerTests" */;
 			buildPhases = (
 				A39E40302704E80A001C75A3 /* Sources */,
 				A39E40312704E80A001C75A3 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				A39E40362704E80A001C75A3 /* PBXTargetDependency */,
 			);
-			name = roboarmTests;
+			name = "Robotic Arm ControllerTests";
 			productName = roboarmTests;
-			productReference = A39E40342704E80A001C75A3 /* roboarmTests.xctest */;
+			productReference = A39E40342704E80A001C75A3 /* Robotic Arm ControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A39E403D2704E80A001C75A3 /* roboarmUITests */ = {
+		A39E403D2704E80A001C75A3 /* Robotic Arm ControllerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A39E404E2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "roboarmUITests" */;
+			buildConfigurationList = A39E404E2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "Robotic Arm ControllerUITests" */;
 			buildPhases = (
 				A39E403A2704E80A001C75A3 /* Sources */,
 				A39E403B2704E80A001C75A3 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				A39E40402704E80A001C75A3 /* PBXTargetDependency */,
 			);
-			name = roboarmUITests;
+			name = "Robotic Arm ControllerUITests";
 			productName = roboarmUITests;
-			productReference = A39E403E2704E80A001C75A3 /* roboarmUITests.xctest */;
+			productReference = A39E403E2704E80A001C75A3 /* Robotic Arm ControllerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A39E40192704E807001C75A3 /* Build configuration list for PBXProject "roboarm" */;
+			buildConfigurationList = A39E40192704E807001C75A3 /* Build configuration list for PBXProject "Robotic Arm Controller" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A39E401D2704E807001C75A3 /* roboarm */,
-				A39E40332704E80A001C75A3 /* roboarmTests */,
-				A39E403D2704E80A001C75A3 /* roboarmUITests */,
+				A39E401D2704E807001C75A3 /* Robotic Arm Controller */,
+				A39E40332704E80A001C75A3 /* Robotic Arm ControllerTests */,
+				A39E403D2704E80A001C75A3 /* Robotic Arm ControllerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		A39E40362704E80A001C75A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A39E401D2704E807001C75A3 /* roboarm */;
+			target = A39E401D2704E807001C75A3 /* Robotic Arm Controller */;
 			targetProxy = A39E40352704E80A001C75A3 /* PBXContainerItemProxy */;
 		};
 		A39E40402704E80A001C75A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A39E401D2704E807001C75A3 /* roboarm */;
+			target = A39E401D2704E807001C75A3 /* Robotic Arm Controller */;
 			targetProxy = A39E403F2704E80A001C75A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -527,7 +527,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roboarm.app/roboarm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robotic Arm Controller.app/Robotic Arm Controller";
 			};
 			name = Debug;
 		};
@@ -556,7 +556,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roboarm.app/roboarm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robotic Arm Controller.app/Robotic Arm Controller";
 			};
 			name = Release;
 		};
@@ -617,7 +617,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A39E40192704E807001C75A3 /* Build configuration list for PBXProject "roboarm" */ = {
+		A39E40192704E807001C75A3 /* Build configuration list for PBXProject "Robotic Arm Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A39E40462704E80A001C75A3 /* Debug */,
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A39E40482704E80A001C75A3 /* Build configuration list for PBXNativeTarget "roboarm" */ = {
+		A39E40482704E80A001C75A3 /* Build configuration list for PBXNativeTarget "Robotic Arm Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A39E40492704E80A001C75A3 /* Debug */,
@@ -635,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A39E404B2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "roboarmTests" */ = {
+		A39E404B2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "Robotic Arm ControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A39E404C2704E80A001C75A3 /* Debug */,
@@ -644,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A39E404E2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "roboarmUITests" */ = {
+		A39E404E2704E80A001C75A3 /* Build configuration list for PBXNativeTarget "Robotic Arm ControllerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A39E404F2704E80A001C75A3 /* Debug */,

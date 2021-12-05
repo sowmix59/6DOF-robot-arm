@@ -69,6 +69,7 @@ class ViewController: UIViewController, CBPeripheralDelegate{
     
     @IBAction func bleList(_ sender: Any) {
         bleTable.isHidden = false
+        connectionLabel.text = ""
         //UI Table instances
         bleTable.dataSource = self
         bleTable.delegate = self
@@ -76,10 +77,12 @@ class ViewController: UIViewController, CBPeripheralDelegate{
     }
     
     @IBAction func disconnect(_ sender: Any) {
+        bleTable.isHidden = true
         if connectedPeripheral != nil{
             centralManager?.cancelPeripheralConnection(connectedPeripheral)
             connectedPeripheral = nil
-            connectionLabel.text = ""
+            connectionLabel.text = "Disconnected"
+            stackView.isHidden = true
         }
     }
     
@@ -89,6 +92,7 @@ class ViewController: UIViewController, CBPeripheralDelegate{
         
         // Bluetooth instance
         centralManager = CBCentralManager(delegate: self, queue: nil)
+        connectionLabel.text = "Not Connected To Any Device"
         bleTable.isHidden = true
         stackView.isHidden = true
         
